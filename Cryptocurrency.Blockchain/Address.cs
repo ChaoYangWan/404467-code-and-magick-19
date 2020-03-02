@@ -1,3 +1,6 @@
 ﻿using Cryptocurrency.Cryptography;
 using System;
-using System.C
+using System.Collections.Generic;
+using System.Text;
+
+namespace Cryptocurre
