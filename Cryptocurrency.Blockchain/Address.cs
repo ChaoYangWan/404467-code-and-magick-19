@@ -3,4 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cryptocurre
+namespace Cryptocurrency.Blockchain
+{
+    public struct Address
+    {
+        publi
