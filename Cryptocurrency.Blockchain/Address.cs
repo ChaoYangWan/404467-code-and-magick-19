@@ -7,4 +7,6 @@ namespace Cryptocurrency.Blockchain
 {
     public struct Address
     {
-        publi
+        public string Hash { get; private set; }
+
+        public static implicit o
