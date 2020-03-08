@@ -11,4 +11,7 @@ namespace Cryptocurrency.Blockchain
 
         public static implicit operator Address (string publicKeyHash)
         {
-            return 
+            return new Address { Hash = publicKeyHash };
+        }
+
+        public static impl
