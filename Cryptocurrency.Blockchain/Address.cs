@@ -9,4 +9,6 @@ namespace Cryptocurrency.Blockchain
     {
         public string Hash { get; private set; }
 
-        public static implicit o
+        public static implicit operator Address (string publicKeyHash)
+        {
+            return 
