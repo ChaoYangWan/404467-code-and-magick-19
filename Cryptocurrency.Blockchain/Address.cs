@@ -16,4 +16,7 @@ namespace Cryptocurrency.Blockchain
 
         public static implicit operator Address (PublicKey publicKey)
         {
-            
+            return Sha256Hash.Hash(publicKey);
+        }
+
+        public 
