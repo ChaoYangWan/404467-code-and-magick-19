@@ -19,4 +19,8 @@ namespace Cryptocurrency.Blockchain
             return Sha256Hash.Hash(publicKey);
         }
 
-        public 
+        public override string ToString()
+        {
+            return this.Hash;
+        }
+ 
