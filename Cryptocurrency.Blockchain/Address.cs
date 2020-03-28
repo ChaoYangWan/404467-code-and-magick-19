@@ -23,4 +23,5 @@ namespace Cryptocurrency.Blockchain
         {
             return this.Hash;
         }
- 
+    }
+}
