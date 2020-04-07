@@ -54,3 +54,14 @@ namespace Cryptocurrency.Blockchain
         public string ComputeHash()
         {
             List<byte> allBytes = new List<byte>();
+            allBytes.AddRange(ChainParams.Encoder.GetBytes(this.PreviousBlockHash));
+            
+            foreach(Transaction tx in this.Transactions)
+            {
+                allBytes.AddRange(ChainParams.Encoder.GetBytes(tx.Hash));
+            }
+
+            return Sha256Hash.Hash(allBytes.ToArray());
+        }
+    }
+}
