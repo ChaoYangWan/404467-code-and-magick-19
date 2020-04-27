@@ -3,4 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cryp
+namespace Cryptocurrency.Blockchain
+{
+    public abstract class BlockchainObject
+    {
+      
