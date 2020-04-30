@@ -7,4 +7,4 @@ namespace Cryptocurrency.Blockchain
 {
     public abstract class BlockchainObject
     {
-      
+        protected static SecureRandom SecureRand = new SecureRandom()
