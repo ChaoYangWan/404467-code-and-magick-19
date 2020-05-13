@@ -11,4 +11,6 @@ namespace Cryptocurrency.Blockchain
 
         public byte[] Id { get; private set; }
 
-        public Blockcha
+        public BlockchainObject()
+        {
+            this.Id = SecureRand.Gener
