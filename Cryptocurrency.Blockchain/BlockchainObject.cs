@@ -13,4 +13,7 @@ namespace Cryptocurrency.Blockchain
 
         public BlockchainObject()
         {
-            this.Id = SecureRand.Gener
+            this.Id = SecureRand.GenerateSeed(ChainParams.IdSizeInBytes);
+        }
+    }
+}
