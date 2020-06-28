@@ -9,4 +9,5 @@ namespace Cryptocurrency.Blockchain
     [DataContract]
     public class TransactionOutput
     {
-     
+        [DataMember(Order = 1)]
+        public PublicKey To { get;
