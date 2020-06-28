@@ -4,4 +4,9 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Cryptocurrency.B
+namespace Cryptocurrency.Blockchain
+{
+    [DataContract]
+    public class TransactionOutput
+    {
+     
