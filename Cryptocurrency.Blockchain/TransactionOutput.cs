@@ -10,4 +10,7 @@ namespace Cryptocurrency.Blockchain
     public class TransactionOutput
     {
         [DataMember(Order = 1)]
-        public PublicKey To { get;
+        public PublicKey To { get; set; }
+
+        [DataMember(Order = 2)]
+        public Unit Amo
