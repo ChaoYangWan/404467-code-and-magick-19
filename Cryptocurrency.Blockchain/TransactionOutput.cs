@@ -13,4 +13,6 @@ namespace Cryptocurrency.Blockchain
         public PublicKey To { get; set; }
 
         [DataMember(Order = 2)]
-        public Unit Amo
+        public Unit Amount { get; set; }
+    }
+}
