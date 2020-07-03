@@ -14,3 +14,6 @@ namespace Cryptocurrency.Blockchain
         {
             get
             {
+                return this.Value?.ToByteArray();
+            }
+         
