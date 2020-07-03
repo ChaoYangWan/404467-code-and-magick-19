@@ -16,4 +16,6 @@ namespace Cryptocurrency.Blockchain
             {
                 return this.Value?.ToByteArray();
             }
-         
+            set
+            {
+                this.Value = new BigInteger(
