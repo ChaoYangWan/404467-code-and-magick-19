@@ -6,4 +6,8 @@ using System.Text;
 
 namespace Cryptocurrency.Blockchain
 {
-    [DataContrac
+    [DataContract]
+    public class Unit
+    {
+        [DataMember(Order = 1)]
+        
