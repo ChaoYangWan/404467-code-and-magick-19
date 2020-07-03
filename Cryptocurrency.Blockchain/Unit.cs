@@ -10,4 +10,7 @@ namespace Cryptocurrency.Blockchain
     public class Unit
     {
         [DataMember(Order = 1)]
-        
+        private byte[] ValueBytes
+        {
+            get
+            {
