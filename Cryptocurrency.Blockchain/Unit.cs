@@ -22,4 +22,6 @@ namespace Cryptocurrency.Blockchain
             }
         }
 
-        public BigInteger Value { get; 
+        public BigInteger Value { get; set; }
+
+        public static implicit operator byte[] 
