@@ -18,4 +18,8 @@ namespace Cryptocurrency.Blockchain
             }
             set
             {
-                this.Value = new BigInteger(
+                this.Value = new BigInteger(value);
+            }
+        }
+
+        public BigInteger Value { get; 
