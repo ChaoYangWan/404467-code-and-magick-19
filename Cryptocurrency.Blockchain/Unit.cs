@@ -24,4 +24,9 @@ namespace Cryptocurrency.Blockchain
 
         public BigInteger Value { get; set; }
 
-        public static implicit operator byte[] 
+        public static implicit operator byte[] (Unit unit)
+        {
+            return unit.Value.ToByteArray();
+        }
+
+   
