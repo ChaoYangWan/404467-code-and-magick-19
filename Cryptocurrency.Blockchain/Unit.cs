@@ -29,4 +29,6 @@ namespace Cryptocurrency.Blockchain
             return unit.Value.ToByteArray();
         }
 
-   
+        public static implicit operator decimal (Unit unit)
+        {
+     
