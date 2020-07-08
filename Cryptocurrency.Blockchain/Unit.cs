@@ -32,4 +32,7 @@ namespace Cryptocurrency.Blockchain
         public static implicit operator decimal (Unit unit)
         {
             decimal valueAsDecimal = unit.Value.LongValue;
-            return va
+            return valueAsDecimal / ChainParams.UnitsInSingleCoin;
+        }
+
+        public
