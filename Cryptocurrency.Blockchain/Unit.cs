@@ -35,4 +35,6 @@ namespace Cryptocurrency.Blockchain
             return valueAsDecimal / ChainParams.UnitsInSingleCoin;
         }
 
-        public
+        public static implicit operator Unit (decimal val)
+        {
+            return 
