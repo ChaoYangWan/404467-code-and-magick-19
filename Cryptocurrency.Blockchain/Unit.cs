@@ -37,4 +37,6 @@ namespace Cryptocurrency.Blockchain
 
         public static implicit operator Unit (decimal val)
         {
-            return 
+            return new Unit
+            {
+                Value = new BigInteg
