@@ -39,4 +39,6 @@ namespace Cryptocurrency.Blockchain
         {
             return new Unit
             {
-                Value = new BigInteg
+                Value = new BigInteger((val * ChainParams.UnitsInSingleCoin).ToString())
+            };
+ 
