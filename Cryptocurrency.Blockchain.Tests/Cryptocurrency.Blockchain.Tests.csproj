@@ -13,4 +13,4 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Projec
+    <ProjectReference Include="..\Cryptocurrency.Blockchain\Cryptocurrency.
