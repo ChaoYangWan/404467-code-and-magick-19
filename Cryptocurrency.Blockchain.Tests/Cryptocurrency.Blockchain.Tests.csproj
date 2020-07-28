@@ -17,4 +17,6 @@
     <ProjectReference Include="..\Cryptocurrency.Cryptography\Cryptocurrency.Cryptography.csproj" />
     <ProjectReference Include="..\Cryptocurrency.Database\Cryptocurrency.Database.csproj" />
     <ProjectReference Include="..\Cryptocurrency.Globals\Cryptocurrency.Globals.csproj" />
-  </
+  </ItemGroup>
+
+</Project>
