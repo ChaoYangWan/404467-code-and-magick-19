@@ -6,4 +6,7 @@ namespace Cryptocurrency.Cli
     {
         static void Main(string[] args)
         {
-    
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
