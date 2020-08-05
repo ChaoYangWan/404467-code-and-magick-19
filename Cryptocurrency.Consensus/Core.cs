@@ -5,4 +5,6 @@ using System.Text;
 
 namespace Cryptocurrency.Consensus
 {
-    pub
+    public class Core
+    {
+        internal Peer2PeerServer P2PServer
