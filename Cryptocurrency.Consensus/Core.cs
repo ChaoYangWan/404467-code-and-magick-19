@@ -7,4 +7,7 @@ namespace Cryptocurrency.Consensus
 {
     public class Core
     {
-        internal Peer2PeerServer P2PServer
+        internal Peer2PeerServer P2PServer { get; private set; }
+
+        public Core()
+    
