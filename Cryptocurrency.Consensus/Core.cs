@@ -10,4 +10,5 @@ namespace Cryptocurrency.Consensus
         internal Peer2PeerServer P2PServer { get; private set; }
 
         public Core()
-    
+        {
+            this.P2PServer = new Peer2PeerServer(
