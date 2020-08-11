@@ -11,4 +11,9 @@ namespace Cryptocurrency.Consensus
 
         public Core()
         {
-            this.P2PServer = new Peer2PeerServer(
+            this.P2PServer = new Peer2PeerServer();
+        }
+
+        public void Start()
+        {
+            this.P
