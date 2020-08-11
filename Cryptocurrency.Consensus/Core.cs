@@ -21,4 +21,6 @@ namespace Cryptocurrency.Consensus
 
         public void Stop()
         {
-      
+            this.P2PServer.Stop();
+
+            throw new NotImplementedE
