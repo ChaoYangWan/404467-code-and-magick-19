@@ -16,4 +16,9 @@ namespace Cryptocurrency.Consensus
 
         public void Start()
         {
-            this.P
+            this.P2PServer.Start();
+        }
+
+        public void Stop()
+        {
+      
