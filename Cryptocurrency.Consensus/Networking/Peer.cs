@@ -94,3 +94,45 @@ namespace Cryptocurrency.Consensus.Networking
                             result = messageMethod.Invoke(this, null);
                         }
                             
+                        if (messageMethod.ReturnType != null)
+                        {
+                            // the message has a return type. Write the result back to the stream.
+                            PeerMessage resultMsg = new PeerMessage();
+                            resultMsg.Id = msg.Id;
+                            resultMsg.Data = this.Serialize(result);
+
+                            this.SubmitMessage(resultMsg);
+                        }
+                    }
+                }
+            }
+        });
+
+        private byte[] Serialize(object obj)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                ProtoBuf.Serializer.Serialize(ms, obj);
+                return ms.ToArray();
+            }
+        }
+
+        private void SubmitMessage(PeerMessage msg)
+        {
+            NetworkStream stream = this.Tcp.GetStream();
+            ProtoBuf.Serializer.SerializeWithLengthPrefix(stream, msg, ProtoBuf.PrefixStyle.Base128);
+        }
+
+        private PeerMessage BuildMessage <TArgs>(string handlerName, TArgs args)
+        {
+            PeerMessage msg = new PeerMessage();
+            msg.Message = handlerName;
+            msg.Data = Serialize(args);
+
+            return msg;
+        }
+
+        private PeerMessage BuildMessage<TArgs>(Action<TArgs> messageHandler, TArgs args) => this.BuildMessage<TArgs>(messageHandler.Method.Name, args);
+        private PeerMessage BuildMessage<TArgs, TResult>(Func<TArgs, TResult> messageHandler, TArgs args) => this.BuildMessage<TArgs>(messageHandler.Method.Name, args);
+    }
+}
