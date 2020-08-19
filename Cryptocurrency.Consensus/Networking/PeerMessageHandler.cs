@@ -10,4 +10,6 @@ namespace Cryptocurrency.Consensus.Networking
     public partial class Peer
     {
         public void SubmitTransactions(params Transaction[] transactions)
-     
+        {
+            this.SubmitMessage(
+              
