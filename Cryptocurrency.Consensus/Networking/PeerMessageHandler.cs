@@ -5,4 +5,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cr
+namespace Cryptocurrency.Consensus.Networking
+{
+    public partial class Peer
+    {
+      
