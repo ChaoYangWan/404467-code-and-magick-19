@@ -12,4 +12,5 @@ namespace Cryptocurrency.Consensus.Networking
         public void SubmitTransactions(params Transaction[] transactions)
         {
             this.SubmitMessage(
-              
+                this.BuildMessage(this.TransactionsSubmitted, transactions)
+      
