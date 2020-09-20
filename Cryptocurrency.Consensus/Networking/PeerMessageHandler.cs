@@ -16,4 +16,9 @@ namespace Cryptocurrency.Consensus.Networking
             );
         }
 
-        private void TransactionsSubmitted(
+        private void TransactionsSubmitted(Transaction[] transactions)
+        {
+
+        }
+
+        public void SubmitBlock
