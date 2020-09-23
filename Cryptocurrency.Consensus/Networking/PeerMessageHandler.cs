@@ -27,3 +27,8 @@ namespace Cryptocurrency.Consensus.Networking
                 this.BuildMessage(this.BlockSubmitted, block)
             );
         }
+
+        private void BlockSubmitted(Block block)
+        {
+
+        }
