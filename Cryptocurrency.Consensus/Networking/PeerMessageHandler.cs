@@ -32,3 +32,6 @@ namespace Cryptocurrency.Consensus.Networking
         {
 
         }
+
+        public async Task<Block[]> RequestBlocks(int blockHeight)
+     
