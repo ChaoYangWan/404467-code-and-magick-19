@@ -24,4 +24,6 @@ namespace Cryptocurrency.Consensus.Networking
         public void SubmitBlock(Block block)
         {
             this.SubmitMessage(
-      
+                this.BuildMessage(this.BlockSubmitted, block)
+            );
+        }
