@@ -35,4 +35,6 @@ namespace Cryptocurrency.Consensus.Networking
 
         public async Task<Block[]> RequestBlocks(int blockHeight)
         {
-            PeerMessage msg = this.BuildMessage(this.BlocksReques
+            PeerMessage msg = this.BuildMessage(this.BlocksRequested, blockHeight);
+
+            TaskCompletionSourc
