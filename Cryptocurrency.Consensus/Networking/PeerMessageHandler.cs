@@ -38,4 +38,5 @@ namespace Cryptocurrency.Consensus.Networking
             PeerMessage msg = this.BuildMessage(this.BlocksRequested, blockHeight);
 
             TaskCompletionSource<PeerMessage> task = new TaskCompletionSource<PeerMessage>();
-           
+            this.tasks.Add(msg.Id, task);
+            this.SubmitMessag
