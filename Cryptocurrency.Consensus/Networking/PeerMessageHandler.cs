@@ -43,4 +43,5 @@ namespace Cryptocurrency.Consensus.Networking
 
             PeerMessage result = await task.Task;
 
+            return ProtoBuf.Serializer.Deserialize<Block[]>(result.DataStream);
        
