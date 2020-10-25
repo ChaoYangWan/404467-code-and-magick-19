@@ -50,4 +50,5 @@ namespace Cryptocurrency.Consensus.Networking
         {
             return new Block[] { BlockFactory.GenesisBlock() };
         }
-   
+    }
+}
