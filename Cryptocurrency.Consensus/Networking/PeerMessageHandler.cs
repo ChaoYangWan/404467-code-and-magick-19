@@ -48,4 +48,6 @@ namespace Cryptocurrency.Consensus.Networking
 
         private Block[] BlocksRequested(int blockHeight)
         {
-       
+            return new Block[] { BlockFactory.GenesisBlock() };
+        }
+   
