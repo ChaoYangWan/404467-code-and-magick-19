@@ -6,4 +6,4 @@ namespace Cryptocurrency.Consensus.DPoW
     {
         /*
 
-         The concept is each node i
+         The concept is each node in the network accepts ownership of a parcel (like pass t
