@@ -6,4 +6,5 @@ namespace Cryptocurrency.Consensus.DPoW
     {
         /*
 
-         The concept is each node in the network accepts ownership of a parcel (like pass t
+         The concept is each node in the network accepts ownership of a parcel (like pass the parcel) one at a time and they have to unravel one layer
+         In 
