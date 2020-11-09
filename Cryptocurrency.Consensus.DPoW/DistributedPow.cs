@@ -12,4 +12,5 @@ namespace Cryptocurrency.Consensus.DPoW
          The node that completely unwraps a parcel determines how many layers the next parcel has as part of the "mining difficulty"
 
          Problems:
-  
+         How to pass the parcel without storing it on the blockchain?
+        
