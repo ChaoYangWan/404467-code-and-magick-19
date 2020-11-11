@@ -13,4 +13,5 @@ namespace Cryptocurrency.Consensus.DPoW
 
          Problems:
          How to pass the parcel without storing it on the blockchain?
-             Let's say the last node to mine a block or unwrap a layer of the parc
+             Let's say the last node to mine a block or unwrap a layer of the parcel goes offline before it broadcasts it to the next node
+                 A: T
