@@ -14,4 +14,5 @@ namespace Cryptocurrency.Consensus.DPoW
          Problems:
          How to pass the parcel without storing it on the blockchain?
              Let's say the last node to mine a block or unwrap a layer of the parcel goes offline before it broadcasts it to the next node
-                 A: The node which sent the parcel waits for a confirmation reply that can only occur after the parcel has been actioned by the next node
+                 A: The node which sent the parcel waits for a confirmation reply that can only occur after the parcel has been actioned by the next node.
+                 If the confirmation never comes back, the original s
