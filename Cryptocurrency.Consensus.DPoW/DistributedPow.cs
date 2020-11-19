@@ -17,4 +17,5 @@ namespace Cryptocurrency.Consensus.DPoW
                  A: The node which sent the parcel waits for a confirmation reply that can only occur after the parcel has been actioned by the next node.
                  If the confirmation never comes back, the original sending node tries another node
 
-         How to make it so the concensus al
+         How to make it so the concensus algorithm doesn't require an "entry point"
+             A: Similar 
