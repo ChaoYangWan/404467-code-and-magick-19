@@ -18,4 +18,5 @@ namespace Cryptocurrency.Consensus.DPoW
                  If the confirmation never comes back, the original sending node tries another node
 
          How to make it so the concensus algorithm doesn't require an "entry point"
-             A: Similar to how bitcoin works, it's a race to see which parcel can get unravelled 
+             A: Similar to how bitcoin works, it's a race to see which parcel can get unravelled first. All nodes are submitting parcels to each other,
+             
