@@ -19,4 +19,4 @@ namespace Cryptocurrency.Consensus.DPoW
 
          How to make it so the concensus algorithm doesn't require an "entry point"
              A: Similar to how bitcoin works, it's a race to see which parcel can get unravelled first. All nodes are submitting parcels to each other,
-             
+             once a node receives a parcel which has been correctly signed by enoug
