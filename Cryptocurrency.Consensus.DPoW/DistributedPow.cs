@@ -21,4 +21,6 @@ namespace Cryptocurrency.Consensus.DPoW
              A: Similar to how bitcoin works, it's a race to see which parcel can get unravelled first. All nodes are submitting parcels to each other,
              once a node receives a parcel which has been correctly signed by enough nodes, it broadcasts that parcel and the new block to the network
              and then the parcel & new block is validated by all the other nodes.
-             Then all nodes start submitting a parcel fo
+             Then all nodes start submitting a parcel for the next block
+
+         How to ensure the parcel is not illegally 
