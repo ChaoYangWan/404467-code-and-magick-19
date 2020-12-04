@@ -23,4 +23,5 @@ namespace Cryptocurrency.Consensus.DPoW
              and then the parcel & new block is validated by all the other nodes.
              Then all nodes start submitting a parcel for the next block
 
-         How to ensure the parcel is not illegally 
+         How to ensure the parcel is not illegally changed as it transfers from node to node?
+            Let's say a mali
