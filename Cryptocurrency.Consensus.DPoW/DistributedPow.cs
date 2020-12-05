@@ -24,4 +24,4 @@ namespace Cryptocurrency.Consensus.DPoW
              Then all nodes start submitting a parcel for the next block
 
          How to ensure the parcel is not illegally changed as it transfers from node to node?
-            Let's say a mali
+            Let's say a malicious node wants to change the amount of signatures on a parcel to automati
