@@ -25,4 +25,5 @@ namespace Cryptocurrency.Consensus.DPoW
 
          How to ensure the parcel is not illegally changed as it transfers from node to node?
             Let's say a malicious node wants to change the amount of signatures on a parcel to automatically make themselves win, how to prevent that?
-                A: Each step a parcel makes through a node, the node signs the parc
+                A: Each step a parcel makes through a node, the node signs the parcel with its private key and its index in the pass the parcel chain.
+ 
