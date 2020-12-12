@@ -28,4 +28,4 @@ namespace Cryptocurrency.Consensus.DPoW
                 A: Each step a parcel makes through a node, the node signs the parcel with its private key and its index in the pass the parcel chain.
                 Each node in the chain must be unique (can't just bounce between the same two nodes)
             
-            What if a m
+            What if a malicious actor sets up 100 modified nodes and bounces parcels between
