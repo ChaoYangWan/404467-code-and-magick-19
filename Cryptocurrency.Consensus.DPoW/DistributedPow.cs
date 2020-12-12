@@ -29,4 +29,5 @@ namespace Cryptocurrency.Consensus.DPoW
                 Each node in the chain must be unique (can't just bounce between the same two nodes)
             
             What if a malicious actor sets up 100 modified nodes and bounces parcels between them? Or modifies the parcel to show it has signatures
-            from nodes that it
+            from nodes that it has generated itself?
+                Q: This is why PoW works so well, it doesn't rel
