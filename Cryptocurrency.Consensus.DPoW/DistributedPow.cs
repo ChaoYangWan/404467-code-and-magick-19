@@ -31,4 +31,8 @@ namespace Cryptocurrency.Consensus.DPoW
             What if a malicious actor sets up 100 modified nodes and bounces parcels between them? Or modifies the parcel to show it has signatures
             from nodes that it has generated itself?
                 Q: This is why PoW works so well, it doesn't rely on external validation. Once it finds the solution it just broadcasts it and everyone else can validate it
-                A
+                A: 
+
+        */
+
+        public DpowParcel AcceptWork(DpowParcel parcel)
