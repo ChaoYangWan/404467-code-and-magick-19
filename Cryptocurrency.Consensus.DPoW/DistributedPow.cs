@@ -36,3 +36,8 @@ namespace Cryptocurrency.Consensus.DPoW
         */
 
         public DpowParcel AcceptWork(DpowParcel parcel)
+        {
+
+        }
+    }
+}
