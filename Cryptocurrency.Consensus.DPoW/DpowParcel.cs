@@ -2,4 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cryptocurrency.Consensus
+namespace Cryptocurrency.Consensus.DPoW
+{
+    public class DpowParcel
+    {
+        
+
+
+
+
+
+
+    }
+}
