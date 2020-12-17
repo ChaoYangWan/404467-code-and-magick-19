@@ -1,2 +1,5 @@
 ﻿using System;
-using System.Coll
+using System.Collections.Generic;
+using System.Text;
+
+namespace Cryptocurrency.Consensus
