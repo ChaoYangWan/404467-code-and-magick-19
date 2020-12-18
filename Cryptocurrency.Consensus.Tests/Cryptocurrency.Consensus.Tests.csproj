@@ -13,4 +13,5 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference 
+    <ProjectReference Include="..\Cryptocurrency.Consensus\Cryptocurrency.Consensus.csproj" />
+  </Ite
