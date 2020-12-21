@@ -6,4 +6,8 @@ using System.Threading.Tasks;
 namespace Cryptocurrency.Consensus.Tests
 {
     [TestClass]
-    public class 
+    public class Peer2PeerServerTests
+    {
+        Peer2PeerServer server;
+
+        [Te
