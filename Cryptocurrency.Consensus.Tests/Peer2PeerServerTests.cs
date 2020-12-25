@@ -13,4 +13,8 @@ namespace Cryptocurrency.Consensus.Tests
         [TestInitialize]
         public void Init()
         {
-            this.server = new Pe
+            this.server = new Peer2PeerServer();
+            this.server.Start();
+        }
+
+       
