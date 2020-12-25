@@ -10,4 +10,7 @@ namespace Cryptocurrency.Consensus.Tests
     {
         Peer2PeerServer server;
 
-        [Te
+        [TestInitialize]
+        public void Init()
+        {
+            this.server = new Pe
