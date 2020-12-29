@@ -13,4 +13,8 @@ namespace Cryptocurrency
         public Core()
         {
             this.InstantiateBlockchain();
-     
+        }
+
+        private void InstantiateBlockchain()
+        {
+          
