@@ -10,4 +10,7 @@ namespace Cryptocurrency
 
         
         
-        public 
+        public Core()
+        {
+            this.InstantiateBlockchain();
+     
