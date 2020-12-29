@@ -23,4 +23,7 @@ namespace Cryptocurrency.Consensus.Tests
             Peer peer = new Peer("localhost:13337");
             Block[] blocks = await peer.RequestBlocks(0);
 
-            Assert.IsTrue(blocks.Len
+            Assert.IsTrue(blocks.Length > 0);
+        }
+    }
+}
