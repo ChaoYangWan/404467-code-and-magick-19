@@ -17,4 +17,7 @@ namespace Cryptocurrency.Consensus.Tests
             this.server.Start();
         }
 
-       
+        [TestMethod]
+        public async Task TestRequestBlocks()
+        {
+   
