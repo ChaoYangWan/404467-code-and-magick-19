@@ -2,4 +2,8 @@
 using Cryptocurrency.Database;
 using Cryptocurrency.Database.Factories;
 
-namespace Cryp
+namespace Cryptocurrency
+{
+    public class Core
+    {
+        public Block Ge
