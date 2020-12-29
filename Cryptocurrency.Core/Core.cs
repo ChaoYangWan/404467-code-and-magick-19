@@ -6,4 +6,8 @@ namespace Cryptocurrency
 {
     public class Core
     {
-        public Block Ge
+        public Block GenesisBlock { get; private set; }
+
+        
+        
+        public 
