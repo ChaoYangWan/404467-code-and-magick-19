@@ -1,2 +1,5 @@
 ﻿using Cryptocurrency.Blockchain;
-using Crypto
+using Cryptocurrency.Database;
+using Cryptocurrency.Database.Factories;
+
+namespace Cryp
