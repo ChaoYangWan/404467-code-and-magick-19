@@ -20,4 +20,5 @@ namespace Cryptocurrency.Consensus.Tests
         [TestMethod]
         public async Task TestRequestBlocks()
         {
-   
+            Peer peer = new Peer("localhost:13337");
+            Block[] blocks = 
