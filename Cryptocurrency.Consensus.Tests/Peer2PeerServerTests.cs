@@ -21,4 +21,6 @@ namespace Cryptocurrency.Consensus.Tests
         public async Task TestRequestBlocks()
         {
             Peer peer = new Peer("localhost:13337");
-            Block[] blocks = 
+            Block[] blocks = await peer.RequestBlocks(0);
+
+            Assert.IsTrue(blocks.Len
