@@ -17,4 +17,7 @@ namespace Cryptocurrency
 
         private void InstantiateBlockchain()
         {
-          
+            this.GenesisBlock = BlockFactory.GenesisBlock();
+        }
+    }
+}
