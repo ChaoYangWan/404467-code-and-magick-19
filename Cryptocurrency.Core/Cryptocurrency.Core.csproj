@@ -1,1 +1,4 @@
-<Projec
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstan
