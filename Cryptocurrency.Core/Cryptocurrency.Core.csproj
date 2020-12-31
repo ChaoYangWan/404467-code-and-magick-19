@@ -1,4 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstan
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Cryptocurrency</RootNamespace>
+  
