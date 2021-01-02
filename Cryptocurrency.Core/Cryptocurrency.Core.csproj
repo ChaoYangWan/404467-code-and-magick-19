@@ -6,4 +6,5 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cry
+    <ProjectReference Include="..\Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.csproj" />
+  
