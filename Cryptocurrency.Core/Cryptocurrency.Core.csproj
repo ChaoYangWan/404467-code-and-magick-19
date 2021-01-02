@@ -7,4 +7,4 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.csproj" />
-  
+    <ProjectReference Include="..\Cryptocurrency.Consensus\C
