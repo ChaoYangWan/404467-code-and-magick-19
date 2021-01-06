@@ -5,4 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Crypt
+namespace Cryptocurrency.Services
+{
+    public static class TransactionValidatorServ
