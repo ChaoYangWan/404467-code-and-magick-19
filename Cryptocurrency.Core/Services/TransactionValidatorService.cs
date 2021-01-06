@@ -7,4 +7,6 @@ using System.Text;
 
 namespace Cryptocurrency.Services
 {
-    public static class TransactionValidatorServ
+    public static class TransactionValidatorService
+    {
+        public static void ValidateTransaction(Transa
