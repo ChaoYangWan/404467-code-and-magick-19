@@ -9,4 +9,6 @@ namespace Cryptocurrency.Services
 {
     public static class TransactionValidatorService
     {
-        public static void ValidateTransaction(Transa
+        public static void ValidateTransaction(Transaction transaction)
+        {
+            bool isCoinbase = transaction.Input
