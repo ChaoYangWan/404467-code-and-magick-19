@@ -11,4 +11,7 @@ namespace Cryptocurrency.Services
     {
         public static void ValidateTransaction(Transaction transaction)
         {
-            bool isCoinbase = transaction.Input
+            bool isCoinbase = transaction.Inputs.Count == 0;
+
+            decimal
+                totalInput 
