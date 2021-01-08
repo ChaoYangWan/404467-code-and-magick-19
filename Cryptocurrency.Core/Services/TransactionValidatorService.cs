@@ -14,4 +14,7 @@ namespace Cryptocurrency.Services
             bool isCoinbase = transaction.Inputs.Count == 0;
 
             decimal
-                totalInput 
+                totalInput = 0,
+                totalOutput = 0;
+
+            // verify the
