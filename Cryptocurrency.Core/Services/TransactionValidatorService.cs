@@ -17,4 +17,4 @@ namespace Cryptocurrency.Services
                 totalInput = 0,
                 totalOutput = 0;
 
-            // verify the
+            // verify the inputs are able to be spent with the public key the transaction is signed with
