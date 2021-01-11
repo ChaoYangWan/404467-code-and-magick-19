@@ -18,3 +18,4 @@ namespace Cryptocurrency.Services
                 totalOutput = 0;
 
             // verify the inputs are able to be spent with the public key the transaction is signed with
+            for (int i = 0; i < transaction.Inputs.Count; i++
