@@ -20,4 +20,6 @@ namespace Cryptocurrency.Services
             // verify the inputs are able to be spent with the public key the transaction is signed with
             for (int i = 0; i < transaction.Inputs.Count; i++)
             {
-                TransactionInput txIn = transaction.Inputs[i
+                TransactionInput txIn = transaction.Inputs[i];
+
+                Transaction lastTxInTrans = TransactionFactory.Transa
