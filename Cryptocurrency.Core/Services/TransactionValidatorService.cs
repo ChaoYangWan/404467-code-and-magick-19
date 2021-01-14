@@ -23,4 +23,4 @@ namespace Cryptocurrency.Services
                 TransactionInput txIn = transaction.Inputs[i];
 
                 Transaction lastTxInTrans = TransactionFactory.TransactionFromTxInput(txIn);
-                Trans
+                TransactionOutput lastTxInOutput = lastTxInTrans.Outputs.ElementAt((in
