@@ -28,4 +28,6 @@ namespace Cryptocurrency.Services
                 if (!transaction.VerifySignature(lastTxInOutput.To))
                     throw new Exception("Transaction sign chain is invalid");
 
-                Tran
+                TransactionValidatorService.ValidateTransaction(lastTxInTrans);
+
+         
