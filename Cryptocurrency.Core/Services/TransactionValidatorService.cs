@@ -25,4 +25,5 @@ namespace Cryptocurrency.Services
                 Transaction lastTxInTrans = TransactionFactory.TransactionFromTxInput(txIn);
                 TransactionOutput lastTxInOutput = lastTxInTrans.Outputs.ElementAt((int)txIn.PreviousTransactionOutIndex);
 
-                if (!transaction.Veri
+                if (!transaction.VerifySignature(lastTxInOutput.To))
+                    throw new Exception("
