@@ -26,4 +26,6 @@ namespace Cryptocurrency.Services
                 TransactionOutput lastTxInOutput = lastTxInTrans.Outputs.ElementAt((int)txIn.PreviousTransactionOutIndex);
 
                 if (!transaction.VerifySignature(lastTxInOutput.To))
-                    throw new Exception("
+                    throw new Exception("Transaction sign chain is invalid");
+
+                Tran
