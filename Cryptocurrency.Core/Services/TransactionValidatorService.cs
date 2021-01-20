@@ -30,4 +30,7 @@ namespace Cryptocurrency.Services
 
                 TransactionValidatorService.ValidateTransaction(lastTxInTrans);
 
-         
+                totalInput += lastTxInOutput.Amount;
+            }
+
+      
