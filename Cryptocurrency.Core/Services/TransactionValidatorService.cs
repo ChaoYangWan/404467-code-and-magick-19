@@ -33,4 +33,6 @@ namespace Cryptocurrency.Services
                 totalInput += lastTxInOutput.Amount;
             }
 
-      
+            if (isCoinbase)
+            {
+                if (transaction.
