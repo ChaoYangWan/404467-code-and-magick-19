@@ -35,4 +35,5 @@ namespace Cryptocurrency.Services
 
             if (isCoinbase)
             {
-                if (transaction.
+                if (transaction.Inputs.Count != 1 && transaction.Outputs.Count != 1)
+        
