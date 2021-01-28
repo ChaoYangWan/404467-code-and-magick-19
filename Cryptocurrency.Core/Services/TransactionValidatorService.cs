@@ -36,4 +36,4 @@ namespace Cryptocurrency.Services
             if (isCoinbase)
             {
                 if (transaction.Inputs.Count != 1 && transaction.Outputs.Count != 1)
-        
+                    throw new Exception("Coinbase transaction must have 
