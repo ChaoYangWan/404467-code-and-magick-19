@@ -41,4 +41,5 @@ namespace Cryptocurrency.Services
                 return;
             }
 
-         
+            for (int i = 0; i < transaction.Outputs.Count; i++)
+    
