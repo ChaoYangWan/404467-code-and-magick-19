@@ -43,4 +43,6 @@ namespace Cryptocurrency.Services
 
             for (int i = 0; i < transaction.Outputs.Count; i++)
             {
-                TransactionOutput txOut = transaction.Ou
+                TransactionOutput txOut = transaction.Outputs[i];
+                totalOutput += txOut.Amount;
+            }
