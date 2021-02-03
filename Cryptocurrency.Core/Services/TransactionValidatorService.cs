@@ -46,3 +46,6 @@ namespace Cryptocurrency.Services
                 TransactionOutput txOut = transaction.Outputs[i];
                 totalOutput += txOut.Amount;
             }
+
+            if (!isCoinbase && totalOutput > totalInput)
+                
