@@ -50,4 +50,5 @@ namespace Cryptocurrency.Services
             if (!isCoinbase && totalOutput > totalInput)
                 throw new Exception("Output must not exceed input");
         }
-  
+    }
+}
