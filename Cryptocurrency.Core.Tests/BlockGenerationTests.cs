@@ -9,4 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Cryptocurrency.Bl
+namespace Cryptocurrency.Blockchain.Tests
+{
+    [TestClass]
+    public class BlockGenerationTests
