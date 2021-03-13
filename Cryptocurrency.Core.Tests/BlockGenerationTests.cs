@@ -13,3 +13,7 @@ namespace Cryptocurrency.Blockchain.Tests
 {
     [TestClass]
     public class BlockGenerationTests
+    {
+        [TestMethod]
+        public void FromGenesisPoW()
+        
