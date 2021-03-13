@@ -16,4 +16,7 @@ namespace Cryptocurrency.Blockchain.Tests
     {
         [TestMethod]
         public void FromGenesisPoW()
-        
+        {
+            Core core = new Core();
+
+            EcdsaKeyPai
