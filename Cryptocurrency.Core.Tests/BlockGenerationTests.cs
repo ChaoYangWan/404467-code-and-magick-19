@@ -22,4 +22,7 @@ namespace Cryptocurrency.Blockchain.Tests
             EcdsaKeyPair genesisWalletKp = new EcdsaKeyPair(Globals.Keys.GenesisPrivateKey);
             EcdsaKeyPair otherKp = new EcdsaKeyPair();
 
-            Block genesis = co
+            Block genesis = core.GenesisBlock;
+
+            // find nonce for nextBlock
+            Reg
