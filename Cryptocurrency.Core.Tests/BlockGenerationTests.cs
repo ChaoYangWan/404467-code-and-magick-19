@@ -25,4 +25,6 @@ namespace Cryptocurrency.Blockchain.Tests
             Block genesis = core.GenesisBlock;
 
             // find nonce for nextBlock
-            Reg
+            Regex difficultyTestRegex = new Regex(genesis.DifficultyMask);
+
+          
