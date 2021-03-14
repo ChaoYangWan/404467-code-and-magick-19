@@ -20,4 +20,6 @@ namespace Cryptocurrency.Blockchain.Tests
             Core core = new Core();
 
             EcdsaKeyPair genesisWalletKp = new EcdsaKeyPair(Globals.Keys.GenesisPrivateKey);
-        
+            EcdsaKeyPair otherKp = new EcdsaKeyPair();
+
+            Block genesis = co
