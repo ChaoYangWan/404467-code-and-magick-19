@@ -30,4 +30,4 @@ namespace Cryptocurrency.Blockchain.Tests
             UInt16 testNonce = 0;
             while (true)
             {
-                
+                string mineHash = Sha256Hash.Hash(BitConverter.GetBytes(testNo
