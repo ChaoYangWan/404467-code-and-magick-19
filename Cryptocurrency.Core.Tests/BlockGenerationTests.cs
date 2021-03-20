@@ -27,4 +27,7 @@ namespace Cryptocurrency.Blockchain.Tests
             // find nonce for nextBlock
             Regex difficultyTestRegex = new Regex(genesis.DifficultyMask);
 
-          
+            UInt16 testNonce = 0;
+            while (true)
+            {
+                
