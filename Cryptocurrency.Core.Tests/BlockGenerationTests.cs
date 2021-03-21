@@ -32,4 +32,7 @@ namespace Cryptocurrency.Blockchain.Tests
             {
                 string mineHash = Sha256Hash.Hash(BitConverter.GetBytes(testNonce), genesis.PreviousBlockHash);
 
-                if (difficultyTestReg
+                if (difficultyTestRegex.IsMatch(mineHash))
+                    break;
+
+            
