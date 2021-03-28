@@ -40,4 +40,5 @@ namespace Cryptocurrency.Blockchain.Tests
 
             Block nextBlock = BlockFactory.GenerateBlock(genesisWalletKp.Public);
 
-            Transaction next
+            Transaction nextTransaction = new Transaction();
+            nextTransaction.Input
