@@ -41,4 +41,5 @@ namespace Cryptocurrency.Blockchain.Tests
             Block nextBlock = BlockFactory.GenerateBlock(genesisWalletKp.Public);
 
             Transaction nextTransaction = new Transaction();
-            nextTransaction.Inputs.Add(new TransactionInput { PreviousTransactionHash = genesi
+            nextTransaction.Inputs.Add(new TransactionInput { PreviousTransactionHash = genesis.Transactions[0].Hash, PreviousTransactionOutIndex = 0 });
+            next
