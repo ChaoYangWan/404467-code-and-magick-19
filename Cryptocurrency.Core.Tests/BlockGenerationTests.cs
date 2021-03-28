@@ -38,4 +38,6 @@ namespace Cryptocurrency.Blockchain.Tests
                 testNonce++;
             }
 
-            Block nextBlock = Bloc
+            Block nextBlock = BlockFactory.GenerateBlock(genesisWalletKp.Public);
+
+            Transaction next
