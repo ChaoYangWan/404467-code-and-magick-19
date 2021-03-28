@@ -35,4 +35,7 @@ namespace Cryptocurrency.Blockchain.Tests
                 if (difficultyTestRegex.IsMatch(mineHash))
                     break;
 
-            
+                testNonce++;
+            }
+
+            Block nextBlock = Bloc
