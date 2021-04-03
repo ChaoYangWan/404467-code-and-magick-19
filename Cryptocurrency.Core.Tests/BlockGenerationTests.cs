@@ -46,4 +46,7 @@ namespace Cryptocurrency.Blockchain.Tests
             {
                 Amount = 1M,
                 To = otherKp.Public
- 
+            });
+
+            nextTransaction.Sign(genesisWalletKp.Private);
+
