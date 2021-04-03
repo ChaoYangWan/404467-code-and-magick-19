@@ -44,4 +44,6 @@ namespace Cryptocurrency.Blockchain.Tests
             nextTransaction.Inputs.Add(new TransactionInput { PreviousTransactionHash = genesis.Transactions[0].Hash, PreviousTransactionOutIndex = 0 });
             nextTransaction.Outputs.Add(new TransactionOutput
             {
-                
+                Amount = 1M,
+                To = otherKp.Public
+ 
