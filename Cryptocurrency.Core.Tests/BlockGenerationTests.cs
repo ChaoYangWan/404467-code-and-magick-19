@@ -50,3 +50,5 @@ namespace Cryptocurrency.Blockchain.Tests
 
             nextTransaction.Sign(genesisWalletKp.Private);
 
+            nextBlock.Nonce = testNonce;
+            nextBlock.Transaction
