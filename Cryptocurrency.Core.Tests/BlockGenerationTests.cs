@@ -42,4 +42,6 @@ namespace Cryptocurrency.Blockchain.Tests
 
             Transaction nextTransaction = new Transaction();
             nextTransaction.Inputs.Add(new TransactionInput { PreviousTransactionHash = genesis.Transactions[0].Hash, PreviousTransactionOutIndex = 0 });
-            next
+            nextTransaction.Outputs.Add(new TransactionOutput
+            {
+                
