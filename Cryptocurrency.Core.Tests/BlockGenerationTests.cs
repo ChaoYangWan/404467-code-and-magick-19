@@ -53,4 +53,7 @@ namespace Cryptocurrency.Blockchain.Tests
             nextBlock.Nonce = testNonce;
             nextBlock.Transactions.Add(nextTransaction);
 
-            BlockValidatorService.ValidateBlock(next
+            BlockValidatorService.ValidateBlock(nextBlock);
+        }
+    }
+}
