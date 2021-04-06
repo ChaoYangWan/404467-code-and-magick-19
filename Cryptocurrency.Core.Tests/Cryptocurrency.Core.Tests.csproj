@@ -7,4 +7,5 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Packa
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageRefere
