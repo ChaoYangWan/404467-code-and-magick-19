@@ -14,4 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cryptocurrency.Core\Cryptocurrency.Core.csproj" />
-    <ProjectReference Include="..\C
+    <ProjectReference Include="..\Cryptocurrency.Globals\Cryptocurrency.Globals.csproj" />
+  </ItemGroup>
+
+</P
