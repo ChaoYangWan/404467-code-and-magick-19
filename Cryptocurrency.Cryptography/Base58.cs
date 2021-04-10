@@ -45,3 +45,29 @@ namespace Cryptocurrency.Cryptography
             foreach (char c in base58)
             {
                 if (b58.IndexOf(c) != -1)
+                {
+                    bi2 = bi2.Multiply(new Org.BouncyCastle.Math.BigInteger("58"));
+                    bi2 = bi2.Add(new Org.BouncyCastle.Math.BigInteger(b58.IndexOf(c).ToString()));
+                }
+                else
+                {
+                    return null;
+                }
+            }
+
+            byte[] bb = bi2.ToByteArrayUnsigned();
+
+            // interpret leading '1's as leading zero bytes
+            foreach (char c in base58)
+            {
+                if (c != leadingZeroCharacter[0]) break;
+
+                byte[] bbb = new byte[bb.Length + 1];
+                Array.Copy(bb, 0, bbb, 1, bb.Length);
+                bb = bbb;
+            }
+
+            return bb;
+        }
+    }
+}
