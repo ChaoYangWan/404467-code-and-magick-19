@@ -9,4 +9,8 @@ using Org.BouncyCastle.Math.EC;
 using Org.BouncyCastle.Security;
 using System;
 using System.Collections.Generic;
-u
+using System.Text;
+
+namespace Cryptocurrency.Cryptography
+{
+    publ
