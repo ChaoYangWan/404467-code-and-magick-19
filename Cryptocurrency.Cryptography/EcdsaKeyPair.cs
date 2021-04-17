@@ -13,4 +13,6 @@ using System.Text;
 
 namespace Cryptocurrency.Cryptography
 {
-    publ
+    public class EcdsaKeyPair
+    {
+        public static ECDomainParameters Domain = S
