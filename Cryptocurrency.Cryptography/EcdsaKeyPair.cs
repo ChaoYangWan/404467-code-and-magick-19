@@ -15,4 +15,5 @@ namespace Cryptocurrency.Cryptography
 {
     public class EcdsaKeyPair
     {
-        public static ECDomainParameters Domain = S
+        public static ECDomainParameters Domain = SignerFactory.Sha256EcdsaDomain;
+        private static SecureRandom SecureRand =
