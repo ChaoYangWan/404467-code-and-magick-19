@@ -21,4 +21,6 @@ namespace Cryptocurrency.Cryptography
         public PrivateKey Private { get; private set; }
         public PublicKey Public { get; private set; }
 
-        public Ec
+        public EcdsaKeyPair()
+        {
+            ECKeyPairGenerator generator = new ECKeyPairGener
