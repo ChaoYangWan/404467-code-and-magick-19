@@ -23,4 +23,5 @@ namespace Cryptocurrency.Cryptography
 
         public EcdsaKeyPair()
         {
-            ECKeyPairGenerator generator = new ECKeyPairGener
+            ECKeyPairGenerator generator = new ECKeyPairGenerator("ECDSA");
+            generator.Init(new ECKeyGenerationParameters(Domain, 
