@@ -30,4 +30,8 @@ namespace Cryptocurrency.Cryptography
             ECPrivateKeyParameters priv = keyPair.Private as ECPrivateKeyParameters;
             ECPublicKeyParameters pub = keyPair.Public as ECPublicKeyParameters;
 
-            this.Private = priv.D.ToByteArr
+            this.Private = priv.D.ToByteArray();
+            this.Public = pub.Q.GetEncoded();
+        }
+
+        public Ec
