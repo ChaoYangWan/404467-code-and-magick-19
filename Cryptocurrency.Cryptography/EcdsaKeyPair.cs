@@ -27,4 +27,5 @@ namespace Cryptocurrency.Cryptography
             generator.Init(new ECKeyGenerationParameters(Domain, SecureRand));
 
             AsymmetricCipherKeyPair keyPair = generator.GenerateKeyPair();
-            ECPrivateKeyParameters priv = keyPair.Private a
+            ECPrivateKeyParameters priv = keyPair.Private as ECPrivateKeyParameters;
+            ECPublicKeyParameters pub = keyPair.Public as ECPu
