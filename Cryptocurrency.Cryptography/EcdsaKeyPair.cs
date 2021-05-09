@@ -28,4 +28,6 @@ namespace Cryptocurrency.Cryptography
 
             AsymmetricCipherKeyPair keyPair = generator.GenerateKeyPair();
             ECPrivateKeyParameters priv = keyPair.Private as ECPrivateKeyParameters;
-            ECPublicKeyParameters pub = keyPair.Public as ECPu
+            ECPublicKeyParameters pub = keyPair.Public as ECPublicKeyParameters;
+
+            this.Private = priv.D.ToByteArr
