@@ -34,4 +34,6 @@ namespace Cryptocurrency.Cryptography
             this.Public = pub.Q.GetEncoded();
         }
 
-        public Ec
+        public EcdsaKeyPair(PrivateKey pk)
+        {
+            th
