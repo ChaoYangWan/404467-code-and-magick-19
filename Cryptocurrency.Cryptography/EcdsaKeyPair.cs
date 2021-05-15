@@ -36,4 +36,5 @@ namespace Cryptocurrency.Cryptography
 
         public EcdsaKeyPair(PrivateKey pk)
         {
-            th
+            this.Private = pk;
+            this.Public = KeyFactory.ECPublicKey
