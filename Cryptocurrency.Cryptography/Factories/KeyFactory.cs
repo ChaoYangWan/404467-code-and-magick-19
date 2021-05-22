@@ -9,4 +9,6 @@ using System.Text;
 
 namespace Cryptocurrency.Cryptography.Factories
 {
-    pu
+    public static class KeyFactory
+    {
+        public static ECPriva
