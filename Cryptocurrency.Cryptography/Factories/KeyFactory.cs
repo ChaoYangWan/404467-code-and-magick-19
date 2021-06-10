@@ -11,4 +11,6 @@ namespace Cryptocurrency.Cryptography.Factories
 {
     public static class KeyFactory
     {
-        public static ECPrivateKeyParameters ECPrivateKeyParamsFromPrivateKey(PrivateKey pk, ECDo
+        public static ECPrivateKeyParameters ECPrivateKeyParamsFromPrivateKey(PrivateKey pk, ECDomainParameters domain)
+        {
+            BigInteger d = new B
