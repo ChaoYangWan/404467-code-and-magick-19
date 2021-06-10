@@ -11,4 +11,4 @@ namespace Cryptocurrency.Cryptography.Factories
 {
     public static class KeyFactory
     {
-        public static ECPriva
+        public static ECPrivateKeyParameters ECPrivateKeyParamsFromPrivateKey(PrivateKey pk, ECDo
