@@ -13,4 +13,5 @@ namespace Cryptocurrency.Cryptography.Factories
     {
         public static ECPrivateKeyParameters ECPrivateKeyParamsFromPrivateKey(PrivateKey pk, ECDomainParameters domain)
         {
-            BigInteger d = new B
+            BigInteger d = new BigInteger(pk);
+            ECPrivateKeyParameters paras = new ECPriv
