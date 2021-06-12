@@ -19,4 +19,6 @@ namespace Cryptocurrency.Cryptography.Factories
             return paras;
         }
 
-        public static ECPublicKeyParameters ECPublicKeyParamsFromPrivateKey
+        public static ECPublicKeyParameters ECPublicKeyParamsFromPrivateKey(PrivateKey pk, ECDomainParameters domain)
+        {
+            BigInt
