@@ -21,4 +21,7 @@ namespace Cryptocurrency.Cryptography.Factories
 
         public static ECPublicKeyParameters ECPublicKeyParamsFromPrivateKey(PrivateKey pk, ECDomainParameters domain)
         {
-            BigInt
+            BigInteger d = new BigInteger(pk);
+            ECPoint q = domain.G.Multiply(d);
+
+  
