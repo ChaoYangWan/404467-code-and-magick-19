@@ -19,4 +19,4 @@ namespace Cryptocurrency.Cryptography.Factories
             return paras;
         }
 
- 
+        public static ECPublicKeyParameters ECPublicKeyParamsFromPrivateKey
