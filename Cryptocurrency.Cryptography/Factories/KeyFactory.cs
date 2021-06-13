@@ -27,4 +27,4 @@ namespace Cryptocurrency.Cryptography.Factories
             return new ECPublicKeyParameters(q, domain);
         }
 
-  
+        public static ECPublicKeyParameters ECPublicKeyPara
