@@ -24,4 +24,7 @@ namespace Cryptocurrency.Cryptography.Factories
             BigInteger d = new BigInteger(pk);
             ECPoint q = domain.G.Multiply(d);
 
+            return new ECPublicKeyParameters(q, domain);
+        }
+
   
