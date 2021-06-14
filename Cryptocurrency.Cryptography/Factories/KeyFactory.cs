@@ -27,4 +27,6 @@ namespace Cryptocurrency.Cryptography.Factories
             return new ECPublicKeyParameters(q, domain);
         }
 
-        public static ECPublicKeyParameters ECPublicKeyPara
+        public static ECPublicKeyParameters ECPublicKeyParamsFromPublicKey(PublicKey pk, ECDomainParameters domain)
+        {
+            retu
