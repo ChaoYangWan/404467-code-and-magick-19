@@ -29,4 +29,4 @@ namespace Cryptocurrency.Cryptography.Factories
 
         public static ECPublicKeyParameters ECPublicKeyParamsFromPublicKey(PublicKey pk, ECDomainParameters domain)
         {
-            retu
+            return new ECPublicKeyParameters(SignerFactory.Sha256Curve.Curve.DecodePoi
