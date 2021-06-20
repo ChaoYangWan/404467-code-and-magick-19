@@ -29,4 +29,7 @@ namespace Cryptocurrency.Cryptography.Factories
 
         public static ECPublicKeyParameters ECPublicKeyParamsFromPublicKey(PublicKey pk, ECDomainParameters domain)
         {
-            return new ECPublicKeyParameters(SignerFactory.Sha256Curve.Curve.DecodePoi
+            return new ECPublicKeyParameters(SignerFactory.Sha256Curve.Curve.DecodePoint(pk), domain);
+        }
+    }
+}
