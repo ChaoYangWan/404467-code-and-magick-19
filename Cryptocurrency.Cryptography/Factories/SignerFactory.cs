@@ -9,4 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cryptocurrency.Crypt
+namespace Cryptocurrency.Cryptography
+{
+    public static class SignerFactory
+    {
+        public stat
