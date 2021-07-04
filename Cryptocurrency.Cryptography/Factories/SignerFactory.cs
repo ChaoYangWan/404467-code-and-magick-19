@@ -13,4 +13,7 @@ namespace Cryptocurrency.Cryptography
 {
     public static class SignerFactory
     {
-        public static X9ECParameters Sha256Curve => SecNamedCurves.GetByName
+        public static X9ECParameters Sha256Curve => SecNamedCurves.GetByName("secp256k1");
+
+        public static ECDomainParameters Sha256EcdsaDomain
+     
