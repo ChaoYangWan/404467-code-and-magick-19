@@ -20,4 +20,4 @@ namespace Cryptocurrency.Cryptography
             get
             {
                 X9ECParameters curve = Sha256Curve;
-                ECDomainParamete
+                ECDomainParameters Domain = new ECDomainParameters(curve.Curve, curve.G, curve
