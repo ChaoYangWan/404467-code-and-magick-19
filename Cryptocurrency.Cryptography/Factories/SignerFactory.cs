@@ -19,4 +19,5 @@ namespace Cryptocurrency.Cryptography
         {
             get
             {
-                X9ECParamete
+                X9ECParameters curve = Sha256Curve;
+                ECDomainParamete
