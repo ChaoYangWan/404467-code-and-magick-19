@@ -25,4 +25,7 @@ namespace Cryptocurrency.Cryptography
             }
         }
 
-        public static ISigner Sha256withECDSA() => SignerUtilities.Get
+        public static ISigner Sha256withECDSA() => SignerUtilities.GetSigner("SHA-256withECDSA");
+
+    }
+}
