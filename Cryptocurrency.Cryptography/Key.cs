@@ -5,4 +5,10 @@ using System.Text;
 
 namespace Cryptocurrency.Cryptography
 {
-    public interface IKe
+    public interface IKey
+    {
+        byte[] Data { get; }
+    }
+
+    [DataContract]
+    public struct 
