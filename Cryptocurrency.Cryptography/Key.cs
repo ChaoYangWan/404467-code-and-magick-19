@@ -18,4 +18,7 @@ namespace Cryptocurrency.Cryptography
 
         public static implicit operator PublicKey (byte[] bytes)
         {
-       
+            return new PublicKey { Data = bytes };
+        }
+
+        public 
