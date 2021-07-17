@@ -16,4 +16,6 @@ namespace Cryptocurrency.Cryptography
         [DataMember(Order = 1)]
         public byte[] Data { get; internal set; }
 
-        pu
+        public static implicit operator PublicKey (byte[] bytes)
+        {
+       
