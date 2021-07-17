@@ -11,4 +11,7 @@ namespace Cryptocurrency.Cryptography
     }
 
     [DataContract]
-    public struct 
+    public struct PublicKey : IKey
+    {
+        [DataMember(Order = 1)]
+   
