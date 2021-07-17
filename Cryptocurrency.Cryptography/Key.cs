@@ -14,4 +14,6 @@ namespace Cryptocurrency.Cryptography
     public struct PublicKey : IKey
     {
         [DataMember(Order = 1)]
-   
+        public byte[] Data { get; internal set; }
+
+        pu
