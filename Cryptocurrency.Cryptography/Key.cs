@@ -23,4 +23,7 @@ namespace Cryptocurrency.Cryptography
 
         public static implicit operator byte[] (PublicKey key)
         {
-            
+            return key.Data;
+        }
+
+        public static implicit oper
