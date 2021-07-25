@@ -28,4 +28,5 @@ namespace Cryptocurrency.Cryptography
 
         public static implicit operator PublicKey (string key)
         {
-            byte[] data 
+            byte[] data = Base58.FromBase58String(key);
+            return new PublicKey { Data = data }
