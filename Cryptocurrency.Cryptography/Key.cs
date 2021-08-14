@@ -32,4 +32,7 @@ namespace Cryptocurrency.Cryptography
             return new PublicKey { Data = data };
         }
 
-        public override string ToString
+        public override string ToString()
+        {
+            return Base58.ToBase58String(this);
+      
