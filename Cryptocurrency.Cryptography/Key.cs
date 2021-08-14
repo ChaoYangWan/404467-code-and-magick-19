@@ -40,4 +40,6 @@ namespace Cryptocurrency.Cryptography
 
     public struct PrivateKey : IKey
     {
-       
+        public byte[] Data { get; internal set; }
+
+        public static implic
