@@ -35,4 +35,9 @@ namespace Cryptocurrency.Cryptography
         public override string ToString()
         {
             return Base58.ToBase58String(this);
-      
+        }
+    }
+
+    public struct PrivateKey : IKey
+    {
+       
