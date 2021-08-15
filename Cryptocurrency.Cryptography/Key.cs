@@ -42,4 +42,6 @@ namespace Cryptocurrency.Cryptography
     {
         public byte[] Data { get; internal set; }
 
-        public static implic
+        public static implicit operator PrivateKey (byte[] bytes)
+        {
+            r
