@@ -47,4 +47,6 @@ namespace Cryptocurrency.Cryptography
             return new PrivateKey { Data = bytes };
         }
 
-        public static imp
+        public static implicit operator byte[] (PrivateKey key)
+        {
+      
