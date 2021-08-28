@@ -55,4 +55,8 @@ namespace Cryptocurrency.Cryptography
         public static implicit operator PrivateKey (string key)
         {
             byte[] data = Base58.FromBase58String(key);
-            return new PrivateKey 
+            return new PrivateKey { Data = data };
+        }
+
+        public override string ToString()
+        
