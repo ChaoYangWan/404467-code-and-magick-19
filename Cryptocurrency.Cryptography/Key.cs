@@ -54,4 +54,5 @@ namespace Cryptocurrency.Cryptography
 
         public static implicit operator PrivateKey (string key)
         {
-            byte[] data = Ba
+            byte[] data = Base58.FromBase58String(key);
+            return new PrivateKey 
