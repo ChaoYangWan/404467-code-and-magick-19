@@ -9,4 +9,6 @@ namespace Cryptocurrency.Cryptography.Services
 {
     public static class Sha256EcdsaSignerService
     {
-        public static byte[] SignData(PrivateKey p
+        public static byte[] SignData(PrivateKey privateKey, string data)
+        {
+            byte[] dataBytes
