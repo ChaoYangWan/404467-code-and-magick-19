@@ -5,4 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cryptocurren
+namespace Cryptocurrency.Cryptography.Services
+{
+    public static class Sha256Ecds
