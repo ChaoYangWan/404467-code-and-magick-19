@@ -7,4 +7,6 @@ using System.Text;
 
 namespace Cryptocurrency.Cryptography.Services
 {
-    public static class Sha256Ecds
+    public static class Sha256EcdsaSignerService
+    {
+        public static byte[] SignData(PrivateKey p
