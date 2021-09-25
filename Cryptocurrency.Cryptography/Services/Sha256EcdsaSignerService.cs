@@ -11,4 +11,5 @@ namespace Cryptocurrency.Cryptography.Services
     {
         public static byte[] SignData(PrivateKey privateKey, string data)
         {
-            byte[] dataBytes
+            byte[] dataBytes = Encoding.UTF8.GetBytes(data);
+            return SignData(privateKey, 
