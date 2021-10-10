@@ -15,4 +15,6 @@ namespace Cryptocurrency.Cryptography.Services
             return SignData(privateKey, dataBytes);
         }
 
-        public static byte[] SignData
+        public static byte[] SignData(PrivateKey pk, byte[] data)
+        {
+            ECPrivateKeyParameters private
