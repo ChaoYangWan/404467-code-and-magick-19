@@ -17,4 +17,4 @@ namespace Cryptocurrency.Cryptography.Services
 
         public static byte[] SignData(PrivateKey pk, byte[] data)
         {
-            ECPrivateKeyParameters private
+            ECPrivateKeyParameters privateKeyParams = KeyFactory.ECPrivateKeyParamsFromPrivateKey(pk, Sign
