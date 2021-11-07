@@ -19,4 +19,5 @@ namespace Cryptocurrency.Cryptography.Services
         {
             ECPrivateKeyParameters privateKeyParams = KeyFactory.ECPrivateKeyParamsFromPrivateKey(pk, SignerFactory.Sha256EcdsaDomain);
 
-            ISigner signer = SignerFact
+            ISigner signer = SignerFactory.Sha256withECDSA();
+            signer.Init(true, privateKeyParams
