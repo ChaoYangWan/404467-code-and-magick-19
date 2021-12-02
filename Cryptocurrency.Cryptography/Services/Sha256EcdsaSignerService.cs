@@ -25,4 +25,7 @@ namespace Cryptocurrency.Cryptography.Services
 
             byte[] signBytes = signer.GenerateSignature();
 
-      
+            return signBytes;
+        }
+
+        public static bool Ve
