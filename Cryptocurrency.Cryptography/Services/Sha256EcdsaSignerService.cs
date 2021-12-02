@@ -23,4 +23,6 @@ namespace Cryptocurrency.Cryptography.Services
             signer.Init(true, privateKeyParams);
             signer.BlockUpdate(data, 0, data.Length);
 
-         
+            byte[] signBytes = signer.GenerateSignature();
+
+      
