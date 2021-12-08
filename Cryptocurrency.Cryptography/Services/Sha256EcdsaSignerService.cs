@@ -28,4 +28,6 @@ namespace Cryptocurrency.Cryptography.Services
             return signBytes;
         }
 
-        public static bool VerifySignature(PublicKey publicKey, string signature, str
+        public static bool VerifySignature(PublicKey publicKey, string signature, string msg)
+        {
+            byte[] msgBytes = Encoding.UTF8.GetBytes
