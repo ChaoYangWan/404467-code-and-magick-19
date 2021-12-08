@@ -28,4 +28,4 @@ namespace Cryptocurrency.Cryptography.Services
             return signBytes;
         }
 
-        public static bool Ve
+        public static bool VerifySignature(PublicKey publicKey, string signature, str
