@@ -31,4 +31,6 @@ namespace Cryptocurrency.Cryptography.Services
         public static bool VerifySignature(PublicKey publicKey, string signature, string msg)
         {
             byte[] msgBytes = Encoding.UTF8.GetBytes(msg);
-            byte[] sigBytes = Convert.FromBase64String(signatu
+            byte[] sigBytes = Convert.FromBase64String(signature);
+
+            ISigner signer = SignerFactory.Sha256withECDS
