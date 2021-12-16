@@ -30,4 +30,5 @@ namespace Cryptocurrency.Cryptography.Services
 
         public static bool VerifySignature(PublicKey publicKey, string signature, string msg)
         {
-            byte[] msgBytes = Encoding.UTF8.GetBytes
+            byte[] msgBytes = Encoding.UTF8.GetBytes(msg);
+            byte[] sigBytes = Convert.FromBase64String(signatu
