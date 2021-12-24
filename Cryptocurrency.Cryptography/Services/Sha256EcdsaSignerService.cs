@@ -35,4 +35,6 @@ namespace Cryptocurrency.Cryptography.Services
 
             ISigner signer = SignerFactory.Sha256withECDSA();
             signer.Init(false, KeyFactory.ECPublicKeyParamsFromPublicKey(publicKey, SignerFactory.Sha256EcdsaDomain));
-   
+            signer.BlockUpdate(msgBytes, 0, msgBytes.Length);
+
+            re
