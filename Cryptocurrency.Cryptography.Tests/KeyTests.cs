@@ -2,4 +2,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using
+using System.Text;
+
+namespace Cryptocurrency.Cryptography.Tests
+{
+    [TestCl
