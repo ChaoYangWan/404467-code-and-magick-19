@@ -6,4 +6,8 @@ using System.Text;
 
 namespace Cryptocurrency.Cryptography.Tests
 {
-    [TestCl
+    [TestClass]
+    public class KeyTests
+    {
+        [TestMethod]
+        public void Ne
