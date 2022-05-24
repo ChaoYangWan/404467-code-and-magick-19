@@ -10,4 +10,6 @@ namespace Cryptocurrency.Cryptography.Tests
     public class KeyTests
     {
         [TestMethod]
-        public void Ne
+        public void NewKey()
+        {
+            EcdsaKeyPair keyPair = new EcdsaKeyPa
