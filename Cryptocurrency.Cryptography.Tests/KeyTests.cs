@@ -12,4 +12,6 @@ namespace Cryptocurrency.Cryptography.Tests
         [TestMethod]
         public void NewKey()
         {
-            EcdsaKeyPair keyPair = new EcdsaKeyPa
+            EcdsaKeyPair keyPair = new EcdsaKeyPair();
+
+            Assert.AreNotEqual(new byte[] { }, keyPair.Private)
