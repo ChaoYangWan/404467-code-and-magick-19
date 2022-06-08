@@ -14,4 +14,5 @@ namespace Cryptocurrency.Cryptography.Tests
         {
             EcdsaKeyPair keyPair = new EcdsaKeyPair();
 
-            Assert.AreNotEqual(new byte[] { }, keyPair.Private)
+            Assert.AreNotEqual(new byte[] { }, keyPair.Private);
+            Assert.IsTrue(!String.IsNullOrEmpty(keyPair.Private.
