@@ -17,4 +17,5 @@ namespace Cryptocurrency.Cryptography.Tests
             Assert.AreNotEqual(new byte[] { }, keyPair.Private);
             Assert.IsTrue(!String.IsNullOrEmpty(keyPair.Private.ToString()));
 
-            string publicKey = keyPair.Pub
+            string publicKey = keyPair.Public.ToString();
+            string publicKeyFromFactoryMethod = ((Pub
