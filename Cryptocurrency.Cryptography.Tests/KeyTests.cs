@@ -18,4 +18,6 @@ namespace Cryptocurrency.Cryptography.Tests
             Assert.IsTrue(!String.IsNullOrEmpty(keyPair.Private.ToString()));
 
             string publicKey = keyPair.Public.ToString();
-            string publicKeyFromFactoryMethod = ((PublicKey)KeyFactory.ECPublicKeyParamsFromPublicKey(keyPair.Public, Ecds
+            string publicKeyFromFactoryMethod = ((PublicKey)KeyFactory.ECPublicKeyParamsFromPublicKey(keyPair.Public, EcdsaKeyPair.Domain).Q.GetEncoded()).ToString();
+
+            Assert.
