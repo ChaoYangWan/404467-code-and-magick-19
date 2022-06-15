@@ -20,4 +20,6 @@ namespace Cryptocurrency.Cryptography.Tests
             string publicKey = keyPair.Public.ToString();
             string publicKeyFromFactoryMethod = ((PublicKey)KeyFactory.ECPublicKeyParamsFromPublicKey(keyPair.Public, EcdsaKeyPair.Domain).Q.GetEncoded()).ToString();
 
-            Assert.
+            Assert.AreEqual(publicKey, publicKeyFromFactoryMethod);
+
+          
