@@ -25,4 +25,8 @@ namespace Cryptocurrency.Cryptography.Tests
             string privateKey = keyPair.Private.ToString();
             string privateKeyFromFactoryMethod = ((PrivateKey)KeyFactory.ECPrivateKeyParamsFromPrivateKey(keyPair.Private, EcdsaKeyPair.Domain).D.ToByteArray()).ToString();
 
-            Assert.AreEqual(privateKey, privateKeyFromFactory
+            Assert.AreEqual(privateKey, privateKeyFromFactoryMethod);
+        }
+
+        [TestMethod]
+        public void Rest
