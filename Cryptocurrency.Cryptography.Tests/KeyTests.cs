@@ -29,4 +29,6 @@ namespace Cryptocurrency.Cryptography.Tests
         }
 
         [TestMethod]
-        public void Rest
+        public void RestoreKey()
+        {
+            EcdsaKeyPair keyPair = new E
