@@ -31,4 +31,6 @@ namespace Cryptocurrency.Cryptography.Tests
         [TestMethod]
         public void RestoreKey()
         {
-            EcdsaKeyPair keyPair = new E
+            EcdsaKeyPair keyPair = new EcdsaKeyPair();
+
+            string pubKey = keyPair.Public.ToString(
