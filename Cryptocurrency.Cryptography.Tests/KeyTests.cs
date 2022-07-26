@@ -33,4 +33,7 @@ namespace Cryptocurrency.Cryptography.Tests
         {
             EcdsaKeyPair keyPair = new EcdsaKeyPair();
 
-            string pubKey = keyPair.Public.ToString(
+            string pubKey = keyPair.Public.ToString();
+            PrivateKey privKey = keyPair.Private;
+
+            keyPa
