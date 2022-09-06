@@ -36,4 +36,6 @@ namespace Cryptocurrency.Cryptography.Tests
             string pubKey = keyPair.Public.ToString();
             PrivateKey privKey = keyPair.Private;
 
-            keyPa
+            keyPair = new EcdsaKeyPair(privKey);
+
+            Assert.AreEqual(pubKey, keyPa
