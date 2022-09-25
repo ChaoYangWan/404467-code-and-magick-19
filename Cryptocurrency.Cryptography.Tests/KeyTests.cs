@@ -39,4 +39,9 @@ namespace Cryptocurrency.Cryptography.Tests
             keyPair = new EcdsaKeyPair(privKey);
 
             Assert.AreEqual(pubKey, keyPair.Public.ToString());
-            Assert.AreEqual(privKey, keyPai
+            Assert.AreEqual(privKey, keyPair.Private);
+        }
+
+        [TestMethod]
+        public void RestoreGenesisKey()
+      
