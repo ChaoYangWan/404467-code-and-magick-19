@@ -44,4 +44,6 @@ namespace Cryptocurrency.Cryptography.Tests
 
         [TestMethod]
         public void RestoreGenesisKey()
-      
+        {
+            EcdsaKeyPair genesis = new EcdsaKeyPair(Globals.Keys.GenesisPrivateKey);
+
