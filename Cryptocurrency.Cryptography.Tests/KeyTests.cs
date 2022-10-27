@@ -48,4 +48,10 @@ namespace Cryptocurrency.Cryptography.Tests
             EcdsaKeyPair genesis = new EcdsaKeyPair(Globals.Keys.GenesisPrivateKey);
 
             Assert.AreEqual(genesis.Private.ToString(), Globals.Keys.GenesisPrivateKey);
-            Assert.AreEqual(genesis.Public.ToString(),
+            Assert.AreEqual(genesis.Public.ToString(), Globals.Keys.GenesisPublicKey);
+        }
+
+
+
+    }
+}
