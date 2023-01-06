@@ -6,4 +6,8 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace Cryptocurrency.
+namespace Cryptocurrency.Database.Factories
+{
+    public static class BlockFactory
+    {
+  
