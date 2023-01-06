@@ -20,4 +20,5 @@ namespace Cryptocurrency.Database.Factories
                 Block newBlock = new Block
                 {
                     PreviousBlockHash = lastBlock.Hash,
-      
+                    Date = DateTime.Now,
+                    Dif
