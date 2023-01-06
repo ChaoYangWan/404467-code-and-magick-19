@@ -12,4 +12,6 @@ namespace Cryptocurrency.Database.Factories
     {
         public static Block GenerateBlock()
         {
-            using (
+            using (BlockchainDatabase db = BlockchainDatabase.Create())
+            {
+     
