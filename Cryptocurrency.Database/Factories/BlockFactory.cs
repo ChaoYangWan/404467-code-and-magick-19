@@ -21,4 +21,5 @@ namespace Cryptocurrency.Database.Factories
                 {
                     PreviousBlockHash = lastBlock.Hash,
                     Date = DateTime.Now,
-                    Dif
+                    DifficultyMask = ChainParams.CalculateDifficultyMask(lastBlock),
+ 
