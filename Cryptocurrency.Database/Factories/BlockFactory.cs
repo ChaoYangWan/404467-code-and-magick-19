@@ -14,4 +14,4 @@ namespace Cryptocurrency.Database.Factories
         {
             using (BlockchainDatabase db = BlockchainDatabase.Create())
             {
-     
+                uint lastBlockIndex = (uint)db.Blocks.Max(y => y.BlockIndex).AsInt
