@@ -10,4 +10,6 @@ namespace Cryptocurrency.Database.Factories
 {
     public static class BlockFactory
     {
-  
+        public static Block GenerateBlock()
+        {
+            using (
