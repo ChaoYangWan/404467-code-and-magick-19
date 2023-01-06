@@ -18,4 +18,6 @@ namespace Cryptocurrency.Database.Factories
                 Block lastBlock = db.Blocks.FindOne(y => y.BlockIndex == lastBlockIndex);
 
                 Block newBlock = new Block
-              
+                {
+                    PreviousBlockHash = lastBlock.Hash,
+      
