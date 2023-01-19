@@ -23,4 +23,10 @@ namespace Cryptocurrency.Database.Factories
                     Date = DateTime.Now,
                     DifficultyMask = ChainParams.CalculateDifficultyMask(lastBlock),
                     BlockIndex = lastBlockIndex + 1
-            
+                };
+
+                return newBlock;
+            }
+        }
+
+  
