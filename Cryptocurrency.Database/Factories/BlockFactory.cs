@@ -29,4 +29,6 @@ namespace Cryptocurrency.Database.Factories
             }
         }
 
-  
+        public static Block GenerateBlock(PublicKey minedBy)
+        {
+         
