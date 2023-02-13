@@ -33,4 +33,6 @@ namespace Cryptocurrency.Database.Factories
         {
             Block block = GenerateBlock();
 
-            block.Transactions.A
+            block.Transactions.Add(new Transaction
+            {
+                Outputs = new L
