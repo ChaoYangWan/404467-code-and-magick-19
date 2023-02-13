@@ -31,4 +31,6 @@ namespace Cryptocurrency.Database.Factories
 
         public static Block GenerateBlock(PublicKey minedBy)
         {
-         
+            Block block = GenerateBlock();
+
+            block.Transactions.A
