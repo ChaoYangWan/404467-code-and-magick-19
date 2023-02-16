@@ -35,4 +35,6 @@ namespace Cryptocurrency.Database.Factories
 
             block.Transactions.Add(new Transaction
             {
-                Outputs = new L
+                Outputs = new List<TransactionOutput>
+                {
+                    new
