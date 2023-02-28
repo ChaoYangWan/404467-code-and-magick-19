@@ -39,4 +39,5 @@ namespace Cryptocurrency.Database.Factories
                 {
                     new TransactionOutput
                     {
-                        Amount = Ch
+                        Amount = ChainParams.CalculateBlockReward(block),
+                 
