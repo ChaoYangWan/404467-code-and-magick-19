@@ -40,4 +40,7 @@ namespace Cryptocurrency.Database.Factories
                     new TransactionOutput
                     {
                         Amount = ChainParams.CalculateBlockReward(block),
-                 
+                        To = minedBy
+                    }
+                }
+       
