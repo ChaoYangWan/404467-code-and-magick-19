@@ -52,4 +52,4 @@ namespace Cryptocurrency.Database.Factories
         {
             using (BlockchainDatabase db = BlockchainDatabase.Create())
             {
-                Block genesisBl
+                Block genesisBlock = db.Blocks.FindOne(y => y.PreviousBlockHash == ChainParams.EmptyB
