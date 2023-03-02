@@ -48,4 +48,6 @@ namespace Cryptocurrency.Database.Factories
             return block;
         }
 
-        public static Bloc
+        public static Block GenesisBlock()
+        {
+            using (BlockchainDatabase db = B
