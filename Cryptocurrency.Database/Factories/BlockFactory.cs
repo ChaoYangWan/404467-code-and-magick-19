@@ -43,4 +43,9 @@ namespace Cryptocurrency.Database.Factories
                         To = minedBy
                     }
                 }
-       
+            });
+
+            return block;
+        }
+
+        public static Bloc
