@@ -55,4 +55,7 @@ namespace Cryptocurrency.Database.Factories
                 Block genesisBlock = db.Blocks.FindOne(y => y.PreviousBlockHash == ChainParams.EmptyBlockHash);
 
                 if (genesisBlock != null)
-                    r
+                    return genesisBlock;
+
+                genesisBlock = new Block
+               
