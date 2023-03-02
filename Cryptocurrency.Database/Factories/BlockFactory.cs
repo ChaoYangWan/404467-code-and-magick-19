@@ -50,4 +50,6 @@ namespace Cryptocurrency.Database.Factories
 
         public static Block GenesisBlock()
         {
-            using (BlockchainDatabase db = B
+            using (BlockchainDatabase db = BlockchainDatabase.Create())
+            {
+                Block genesisBl
