@@ -58,4 +58,5 @@ namespace Cryptocurrency.Database.Factories
                     return genesisBlock;
 
                 genesisBlock = new Block
-               
+                {
+                    Date = DateTime.ParseExact("11/01/2018", "dd/MM/yyy
