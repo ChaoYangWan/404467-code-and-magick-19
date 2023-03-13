@@ -60,4 +60,5 @@ namespace Cryptocurrency.Database.Factories
                 genesisBlock = new Block
                 {
                     Date = DateTime.ParseExact("11/01/2018", "dd/MM/yyyy", CultureInfo.InvariantCulture),
-                    Nonce = 4432
+                    Nonce = 4432,
+                    DifficultyMask = ChainParams.CalculateDifficult
