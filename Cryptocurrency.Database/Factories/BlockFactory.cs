@@ -62,4 +62,7 @@ namespace Cryptocurrency.Database.Factories
                     Date = DateTime.ParseExact("11/01/2018", "dd/MM/yyyy", CultureInfo.InvariantCulture),
                     Nonce = 4432,
                     DifficultyMask = ChainParams.CalculateDifficultyMask(null),
-                    PreviousBlockHash = ChainParams.EmptyBlo
+                    PreviousBlockHash = ChainParams.EmptyBlockHash
+                };
+
+                genesisBlock.Transact
