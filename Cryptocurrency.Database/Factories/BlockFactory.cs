@@ -65,4 +65,6 @@ namespace Cryptocurrency.Database.Factories
                     PreviousBlockHash = ChainParams.EmptyBlockHash
                 };
 
-                genesisBlock.Transact
+                genesisBlock.Transactions.Add(new Transaction
+                {
+                    Outputs = new Li
