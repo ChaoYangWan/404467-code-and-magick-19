@@ -67,4 +67,6 @@ namespace Cryptocurrency.Database.Factories
 
                 genesisBlock.Transactions.Add(new Transaction
                 {
-                    Outputs = new Li
+                    Outputs = new List<TransactionOutput>
+                    {
+                        new 
