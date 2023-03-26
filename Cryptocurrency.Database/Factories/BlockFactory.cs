@@ -69,4 +69,4 @@ namespace Cryptocurrency.Database.Factories
                 {
                     Outputs = new List<TransactionOutput>
                     {
-                        new 
+                        new TransactionOutput { To = Globals.Keys.GenesisPublicKey, Amount
