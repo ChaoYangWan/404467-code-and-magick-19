@@ -69,4 +69,5 @@ namespace Cryptocurrency.Database.Factories
                 {
                     Outputs = new List<TransactionOutput>
                     {
-                        new TransactionOutput { To = Globals.Keys.GenesisPublicKey, Amount
+                        new TransactionOutput { To = Globals.Keys.GenesisPublicKey, Amount = (decimal)(ChainParams.MaxSupply * ChainParams.PreMinePercentage) }
+                  
