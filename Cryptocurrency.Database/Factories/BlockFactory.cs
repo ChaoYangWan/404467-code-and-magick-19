@@ -75,4 +75,8 @@ namespace Cryptocurrency.Database.Factories
 
                 db.Blocks.Insert(genesisBlock);
 
-  
+                return genesisBlock;
+            }
+        }
+    }
+}
